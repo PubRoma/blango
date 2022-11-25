@@ -6,6 +6,7 @@ import os
 from rest_framework.urlpatterns import format_suffix_patterns
 from rest_framework.authtoken import views
 from rest_framework.routers import DefaultRouter
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from blog.api.views import UserDetail, TagViewSet, PostViewSet
 
